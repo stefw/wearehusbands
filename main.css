@@ -1,0 +1,159 @@
+	* {
+	   margin: 0;
+	   padding: 0;
+	   -moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   box-sizing: border-box;
+	}
+	
+	html, body{ margin: 0; padding: 0; height: 100%;}
+	
+	
+	html { 
+	  background: url(1920.png) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	
+	.container{
+		z-index: 999;
+		display: block;
+		 height: 100%;
+		 cursor:pointer;
+
+	}
+	
+	
+	section#txt{
+		display: block;
+		display: table;
+		position: fixed;
+		bottom:20px;
+		width:100%;
+		margin:0px auto; 
+		
+	}
+	section#txt > div{
+		display: table-cell;
+		vertical-align: middle;
+		width: 50%
+	}
+	
+	section#txt > div#logo{
+		text-align: right;
+		padding-right: 40px;
+	}
+	
+	section#txt > div#sortie{
+		text-align: left;
+	}
+		
+	
+	
+	section#txt > div img{
+		max-width: 170px;
+	}
+		
+	
+	section#txt h2{
+	   color: rgba(0, 0, 0, 1);
+		font-family: Helvetica;
+		font-size: 20px;font-weight: normal;
+		   	background: #000;
+	
+		   	color: #FFF;
+		   	display: inline
+	
+	}
+	section#txt li{
+		list-style-type: none;
+
+		color: #FFF;
+		font-family: Helvetica;
+		font-size: 12px;
+	}
+	section#txt p.social{
+	   color: rgba(0, 0, 0, 1);
+	   	background: none;
+		font-family: Helvetica;
+		font-size: 11px;
+		display: block;
+		margin-top: 10px
+	}
+
+	a {color: #000}
+	a:hover {color: #FFF}
+	.link{z-index: 9999}
+	
+
+/* ------------------  375px  ------------------ */
+
+@media only screen and (max-width:375px) { 
+	
+	
+	section#txt{
+		display: block;
+		display: table;
+		position: fixed;
+		bottom:20px;
+		width:100%;
+		margin:0px auto; 
+		
+	}
+	section#txt > div{
+		display: table-row;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center
+	}
+	
+	section#txt > div#logo{
+		text-align: center;
+/*
+		position: fixed;
+		top:10px;
+*/
+		margin: 0;
+		padding: 0;
+
+	}
+		
+	section#txt > div img{
+		max-width: 90px;
+	}
+		
+			
+	section#txt h2{
+		text-align: center;
+		display: block;
+		font-size: 16px;
+		background:none;
+
+	}
+	section#txt li{
+		text-align: center;
+		display: block;
+		font-size: 11px;
+		width: 100%;
+		background:none;
+		color: #000
+	}
+	section#txt p.social{
+		text-align: center;
+		display: block;
+		font-size: 10px;
+		margin-top: 10px
+
+	}
+}
+
+/* ------------------  375px  ------------------ */
+
+	@media only screen and (max-width:320px) { 
+		section#txt p.social{
+		display:none;
+	}
+	
+}

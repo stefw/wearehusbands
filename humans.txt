@@ -1,0 +1,5 @@
+/* TEAM */
+
+	Compagny: MagicMorning
+	Twitter: @_magicmorning_
+	Url: http://www.magicmorning.net
