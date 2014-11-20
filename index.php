@@ -36,9 +36,9 @@
 	<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
 
 	<link rel="stylesheet" href="magnific-popup.css"> 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
-	<script src="jquery.magnific-popup.js"></script> 
-	<link rel="stylesheet" href="main.css"> 
+	<link rel="stylesheet" href="main.css?v=<?=rand();?>"> 
+	<link rel="stylesheet" href="jquery.sidr.dark.css?v=<?=rand();?>">
+
 	
 	<meta property="og:locale" content="fr_FR" />
 	<meta property="og:type" content="website" />
@@ -52,6 +52,30 @@
 </head>
 
 <body>
+
+<div id="sidr">
+  	<ul>
+	    <li>Contacts</li>
+
+		<li><a href="mailto:wearehusbands@gmail.com" class="link">&mdash; husbands</a></li>
+		<li><a href="mailto:contact@soundslikeyeah.com" class="link">&mdash; sly records</a></li>
+		<li><a href="mailto:jb@bleucitron.net" class="link">&mdash; booking</a></li>
+		<li><a href="mailto:olivier@alter-k.com" class="link">&mdash; publishing</a></li>
+		<li><a href="mailto:virginie@soundslikeyeah.com" class="link">&mdash; promo</a></li>
+
+	
+	</ul>
+	
+	
+	<div class="flyer"><img src="PRINT_FLYER_HUSBANDS_10x15.png" alt=""/></div>
+	
+</div>
+ 
+<a id="simplemenu" href="#sidr">
+	<img src="menu-ui.png" alt="menu" />
+</a>
+
+<div class="move"></div>
 	
 <div class="container popup-vimeo">
 
@@ -72,9 +96,7 @@
 			<p class="social">
 				Follow us &mdash; <a href="http://facebook.com/wearehusbands" class="link">Facebook</a> - <a href="http://www.twitter.com/wearehusbands"  class="link">Twitter</a> - <a href="http://www.soundcloud.com/wearehusbands"  class="link">Soundcloud</a> - <a href="http://www.instagram.com/wearehusbands"  class="link">Instagram</a> - <a href="http://www.youtube.com/husbandsmarseille"  class="link">Youtube</a> - <a href="http://wearehusbands.bandcamp.com"  class="link">Bandcamp</a>
 			</p>
-			<p class="social sly">
-			Contacts &mdash; <a href="mailto:wearehusbands@gmail.com" class="link">husbands</a> -  <a href="mailto:contact@soundslikeyeah.com" class="link">sly records </a> -  <a href="mailto:jb@bleucitron.net" class="link">booking</a> -  <a href="mailto:olivier@alter-k.com" class="link">publishing</a> -  <a href="mailto:virginie@soundslikeyeah.com" class="link">promo</a>
-			</p>		
+
 			
 		</div>
 	
@@ -83,7 +105,10 @@
 </div>
 
 
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<script src="sidr.js"></script>
+<script src="jquery.magnific-popup.js"></script> 
+	
 <script type="text/javascript">
   	$(document).ready(function() {
 		    $('.popup-vimeo').magnificPopup({
@@ -112,6 +137,22 @@
 			 	$('.link').data('clicked', true);
 
 			});
+			
+			
+
+				
+				
+			    $('#simplemenu').sidr({
+				    	speed: 200, // How long the animation will run. Default: 200
+						side: 'left', // Left or right, the location for the sidebar. Default: 'left'
+				});
+				
+				$('.container').click(function(){
+						$.sidr('close');
+		        });
+		        
+				
+				
 		    
 
     });  

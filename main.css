@@ -9,8 +9,10 @@
 	html, body{ margin: 0; padding: 0; height: 100%;}
 	
 	
-	html { 
-	  background: url(1920.png) no-repeat center center fixed; 
+
+	
+	body{
+	background: url(1920.png) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -18,10 +20,10 @@
 	}
 	
 	.container{
-		z-index: 999;
+		z-index: 99;
 		display: block;
-		 height: 100%;
-		 cursor:pointer;
+		height: 100%;
+		cursor:pointer;
 
 	}
 	
@@ -87,6 +89,9 @@
 	a:hover {color: #FFF}
 	.link{z-index: 9999}
 	
+	
+	.flyer{position:absolute;bottom:0px}
+	.flyer img{max-width:280px}
 
 /* ------------------  375px  ------------------ */
 
@@ -147,6 +152,10 @@
 		margin-top: 10px
 
 	}
+	
+	.flyer{position:absolute;bottom:0px}
+	.flyer img{max-width:200px}
+	
 }
 
 /* ------------------  375px  ------------------ */
