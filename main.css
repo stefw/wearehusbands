@@ -91,7 +91,7 @@
 	
 	
 	.flyer{position:absolute;bottom:0px}
-	.flyer img{max-width:280px}
+	.flyer embed{max-width:280px}
 
 /* ------------------  375px  ------------------ */
 

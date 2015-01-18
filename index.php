@@ -67,7 +67,7 @@
 	</ul>
 	
 	
-	<div class="flyer"><img src="PRINT_FLYER_HUSBANDS_10x15.png" alt=""/></div>
+	<div class="flyer"><embed src="http://player.zimbalam.com/player/3610159640742/3/black/0/0/0/fr/" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="336" height="336" /></div>
 	
 </div>
  
@@ -95,14 +95,21 @@
 			
 			<p class="social">
 				Follow us &mdash; <a href="http://facebook.com/wearehusbands" class="link">Facebook</a> - <a href="http://www.twitter.com/wearehusbands"  class="link">Twitter</a> - <a href="http://www.soundcloud.com/wearehusbands"  class="link">Soundcloud</a> - <a href="http://www.instagram.com/wearehusbands"  class="link">Instagram</a> - <a href="http://www.youtube.com/husbandsmarseille"  class="link">Youtube</a> - <a href="http://wearehusbands.bandcamp.com"  class="link">Bandcamp</a>
-			</p>
-
-			
+			</p>	
 		</div>
+		
+		
+
+
 	
 	</section>
 
+
+
 </div>
+
+
+
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
